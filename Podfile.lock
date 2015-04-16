@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AudioStreamer (0.1)
+  - JTObjectMapping (1.1.2)
+  - XMLDictionary (1.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.1)
+  - AudioStreamer (~> 0.1)
+  - JTObjectMapping (from `../JTObjectMapping/JTObjectMapping.podspec`)
+  - XMLDictionary (~> 1.4)
+
+EXTERNAL SOURCES:
+  JTObjectMapping:
+    :path: ../JTObjectMapping/JTObjectMapping.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  AudioStreamer: 20c9336238684607f97725e921aef86e6c8f0aa3
+  JTObjectMapping: 31a692a60c172084b8dbc131fc276b031eac8248
+  XMLDictionary: 735e81b9a043e220b0d24e9d4f16719606f2e0fc
+
+COCOAPODS: 0.36.0.beta.2

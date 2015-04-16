@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B56A67B5E43BD56D18FCDB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C27497170CCA8CAAF7C090 /* libPods.a */; };
+		8E10B4731A7BCA7F00966B9E /* DDBasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4471A7BCA7F00966B9E /* DDBasicModel.m */; };
+		8E10B4761A7BCA7F00966B9E /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4501A7BCA7F00966B9E /* GTMBase64.m */; };
+		8E10B4771A7BCA7F00966B9E /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4541A7BCA7F00966B9E /* NSData-SQLitePersistence.m */; };
+		8E10B4781A7BCA7F00966B9E /* NSDate-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4561A7BCA7F00966B9E /* NSDate-SQLitePersistence.m */; };
+		8E10B4791A7BCA7F00966B9E /* NSMutableArray-MultipleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4581A7BCA7F00966B9E /* NSMutableArray-MultipleSort.m */; };
+		8E10B47A1A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B45A1A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.m */; };
+		8E10B47B1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B45C1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.m */; };
+		8E10B47C1A7BCA7F00966B9E /* NSObject-ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B45E1A7BCA7F00966B9E /* NSObject-ClassName.m */; };
+		8E10B47D1A7BCA7F00966B9E /* NSObject-MissingKV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4601A7BCA7F00966B9E /* NSObject-MissingKV.m */; };
+		8E10B47E1A7BCA7F00966B9E /* NSObject-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4621A7BCA7F00966B9E /* NSObject-SQLitePersistence.m */; };
+		8E10B47F1A7BCA7F00966B9E /* NSString-NumberStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4641A7BCA7F00966B9E /* NSString-NumberStuff.m */; };
+		8E10B4801A7BCA7F00966B9E /* NSString-SQLiteColumnName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4661A7BCA7F00966B9E /* NSString-SQLiteColumnName.m */; };
+		8E10B4811A7BCA7F00966B9E /* NSString-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4681A7BCA7F00966B9E /* NSString-SQLitePersistence.m */; };
+		8E10B4821A7BCA7F00966B9E /* NSString-UppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B46A1A7BCA7F00966B9E /* NSString-UppercaseFirst.m */; };
+		8E10B4831A7BCA7F00966B9E /* SQLiteInstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B46C1A7BCA7F00966B9E /* SQLiteInstanceManager.m */; };
+		8E10B4841A7BCA7F00966B9E /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B46E1A7BCA7F00966B9E /* SQLitePersistentObject.m */; };
+		8E10B4851A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4701A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.m */; };
+		8E10B4861A7BCA7F00966B9E /* UIImage-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4721A7BCA7F00966B9E /* UIImage-SQLitePersistence.m */; };
+		8E10B4AF1A7C6B1800966B9E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E10B4AE1A7C6B1800966B9E /* libsqlite3.0.dylib */; };
+		8E10B4B21A7C6D5400966B9E /* RadioStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10B4B11A7C6D5400966B9E /* RadioStation.m */; };
+		8E71D1D31A7BB918009B1094 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E71D1D21A7BB918009B1094 /* AppDelegate.m */; };
+		8E71D1D51A7BB918009B1094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E71D1D41A7BB918009B1094 /* main.m */; };
+		8E71D1D71A7BB918009B1094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E71D1D61A7BB918009B1094 /* Images.xcassets */; };
+		8E71D1DA1A7BB918009B1094 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E71D1D81A7BB918009B1094 /* MainMenu.xib */; };
+		8E71D1E61A7BB918009B1094 /* RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E71D1E51A7BB918009B1094 /* RadioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E71D1E01A7BB918009B1094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E71D1C41A7BB918009B1094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E71D1CB1A7BB918009B1094;
+			remoteInfo = Radio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C5653A32FEE2C0E9E0A84C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8E10B4461A7BCA7F00966B9E /* DDBasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBasicModel.h; sourceTree = "<group>"; };
+		8E10B4471A7BCA7F00966B9E /* DDBasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBasicModel.m; sourceTree = "<group>"; };
+		8E10B44F1A7BCA7F00966B9E /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		8E10B4501A7BCA7F00966B9E /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		8E10B4511A7BCA7F00966B9E /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		8E10B4531A7BCA7F00966B9E /* NSData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B4541A7BCA7F00966B9E /* NSData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B4551A7BCA7F00966B9E /* NSDate-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B4561A7BCA7F00966B9E /* NSDate-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B4571A7BCA7F00966B9E /* NSMutableArray-MultipleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray-MultipleSort.h"; sourceTree = "<group>"; };
+		8E10B4581A7BCA7F00966B9E /* NSMutableArray-MultipleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray-MultipleSort.m"; sourceTree = "<group>"; };
+		8E10B4591A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B45A1A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B45B1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B45C1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B45D1A7BCA7F00966B9E /* NSObject-ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-ClassName.h"; sourceTree = "<group>"; };
+		8E10B45E1A7BCA7F00966B9E /* NSObject-ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-ClassName.m"; sourceTree = "<group>"; };
+		8E10B45F1A7BCA7F00966B9E /* NSObject-MissingKV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-MissingKV.h"; sourceTree = "<group>"; };
+		8E10B4601A7BCA7F00966B9E /* NSObject-MissingKV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-MissingKV.m"; sourceTree = "<group>"; };
+		8E10B4611A7BCA7F00966B9E /* NSObject-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B4621A7BCA7F00966B9E /* NSObject-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B4631A7BCA7F00966B9E /* NSString-NumberStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-NumberStuff.h"; sourceTree = "<group>"; };
+		8E10B4641A7BCA7F00966B9E /* NSString-NumberStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-NumberStuff.m"; sourceTree = "<group>"; };
+		8E10B4651A7BCA7F00966B9E /* NSString-SQLiteColumnName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLiteColumnName.h"; sourceTree = "<group>"; };
+		8E10B4661A7BCA7F00966B9E /* NSString-SQLiteColumnName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLiteColumnName.m"; sourceTree = "<group>"; };
+		8E10B4671A7BCA7F00966B9E /* NSString-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B4681A7BCA7F00966B9E /* NSString-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B4691A7BCA7F00966B9E /* NSString-UppercaseFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-UppercaseFirst.h"; sourceTree = "<group>"; };
+		8E10B46A1A7BCA7F00966B9E /* NSString-UppercaseFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-UppercaseFirst.m"; sourceTree = "<group>"; };
+		8E10B46B1A7BCA7F00966B9E /* SQLiteInstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteInstanceManager.h; sourceTree = "<group>"; };
+		8E10B46C1A7BCA7F00966B9E /* SQLiteInstanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteInstanceManager.m; sourceTree = "<group>"; };
+		8E10B46D1A7BCA7F00966B9E /* SQLitePersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLitePersistentObject.h; sourceTree = "<group>"; };
+		8E10B46E1A7BCA7F00966B9E /* SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLitePersistentObject.m; sourceTree = "<group>"; };
+		8E10B46F1A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-SQLitePersistentObject.h"; sourceTree = "<group>"; };
+		8E10B4701A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-SQLitePersistentObject.m"; sourceTree = "<group>"; };
+		8E10B4711A7BCA7F00966B9E /* UIImage-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-SQLitePersistence.h"; sourceTree = "<group>"; };
+		8E10B4721A7BCA7F00966B9E /* UIImage-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-SQLitePersistence.m"; sourceTree = "<group>"; };
+		8E10B4AE1A7C6B1800966B9E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8E10B4B01A7C6D5400966B9E /* RadioStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioStation.h; sourceTree = "<group>"; };
+		8E10B4B11A7C6D5400966B9E /* RadioStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioStation.m; sourceTree = "<group>"; };
+		8E71D1CC1A7BB918009B1094 /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E71D1D01A7BB918009B1094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E71D1D11A7BB918009B1094 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E71D1D21A7BB918009B1094 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E71D1D41A7BB918009B1094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E71D1D61A7BB918009B1094 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E71D1D91A7BB918009B1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8E71D1DF1A7BB918009B1094 /* RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E71D1E41A7BB918009B1094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E71D1E51A7BB918009B1094 /* RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioTests.m; sourceTree = "<group>"; };
+		BB76BC1C571C39C18A95EBBE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C2C27497170CCA8CAAF7C090 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E71D1C91A7BB918009B1094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E10B4AF1A7C6B1800966B9E /* libsqlite3.0.dylib in Frameworks */,
+				36B56A67B5E43BD56D18FCDB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E71D1DC1A7BB918009B1094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF60E9834EAC7EC5A342F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B4AE1A7C6B1800966B9E /* libsqlite3.0.dylib */,
+				C2C27497170CCA8CAAF7C090 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9982547FFD80FC4B155F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C5653A32FEE2C0E9E0A84C /* Pods.debug.xcconfig */,
+				BB76BC1C571C39C18A95EBBE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E10B4451A7BCA7F00966B9E /* DDKitModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B4461A7BCA7F00966B9E /* DDBasicModel.h */,
+				8E10B4471A7BCA7F00966B9E /* DDBasicModel.m */,
+				8E10B4B01A7C6D5400966B9E /* RadioStation.h */,
+				8E10B4B11A7C6D5400966B9E /* RadioStation.m */,
+			);
+			path = DDKitModel;
+			sourceTree = "<group>";
+		};
+		8E10B44A1A7BCA7F00966B9E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B44E1A7BCA7F00966B9E /* GTMBase64 */,
+				8E10B4521A7BCA7F00966B9E /* SQLite */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8E10B44E1A7BCA7F00966B9E /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B44F1A7BCA7F00966B9E /* GTMBase64.h */,
+				8E10B4501A7BCA7F00966B9E /* GTMBase64.m */,
+				8E10B4511A7BCA7F00966B9E /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		8E10B4521A7BCA7F00966B9E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B4531A7BCA7F00966B9E /* NSData-SQLitePersistence.h */,
+				8E10B4541A7BCA7F00966B9E /* NSData-SQLitePersistence.m */,
+				8E10B4551A7BCA7F00966B9E /* NSDate-SQLitePersistence.h */,
+				8E10B4561A7BCA7F00966B9E /* NSDate-SQLitePersistence.m */,
+				8E10B4571A7BCA7F00966B9E /* NSMutableArray-MultipleSort.h */,
+				8E10B4581A7BCA7F00966B9E /* NSMutableArray-MultipleSort.m */,
+				8E10B4591A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.h */,
+				8E10B45A1A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.m */,
+				8E10B45B1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.h */,
+				8E10B45C1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.m */,
+				8E10B45D1A7BCA7F00966B9E /* NSObject-ClassName.h */,
+				8E10B45E1A7BCA7F00966B9E /* NSObject-ClassName.m */,
+				8E10B45F1A7BCA7F00966B9E /* NSObject-MissingKV.h */,
+				8E10B4601A7BCA7F00966B9E /* NSObject-MissingKV.m */,
+				8E10B4611A7BCA7F00966B9E /* NSObject-SQLitePersistence.h */,
+				8E10B4621A7BCA7F00966B9E /* NSObject-SQLitePersistence.m */,
+				8E10B4631A7BCA7F00966B9E /* NSString-NumberStuff.h */,
+				8E10B4641A7BCA7F00966B9E /* NSString-NumberStuff.m */,
+				8E10B4651A7BCA7F00966B9E /* NSString-SQLiteColumnName.h */,
+				8E10B4661A7BCA7F00966B9E /* NSString-SQLiteColumnName.m */,
+				8E10B4671A7BCA7F00966B9E /* NSString-SQLitePersistence.h */,
+				8E10B4681A7BCA7F00966B9E /* NSString-SQLitePersistence.m */,
+				8E10B4691A7BCA7F00966B9E /* NSString-UppercaseFirst.h */,
+				8E10B46A1A7BCA7F00966B9E /* NSString-UppercaseFirst.m */,
+				8E10B46B1A7BCA7F00966B9E /* SQLiteInstanceManager.h */,
+				8E10B46C1A7BCA7F00966B9E /* SQLiteInstanceManager.m */,
+				8E10B46D1A7BCA7F00966B9E /* SQLitePersistentObject.h */,
+				8E10B46E1A7BCA7F00966B9E /* SQLitePersistentObject.m */,
+				8E10B46F1A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.h */,
+				8E10B4701A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.m */,
+				8E10B4711A7BCA7F00966B9E /* UIImage-SQLitePersistence.h */,
+				8E10B4721A7BCA7F00966B9E /* UIImage-SQLitePersistence.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		8E71D1C31A7BB918009B1094 = {
+			isa = PBXGroup;
+			children = (
+				8E71D1CE1A7BB918009B1094 /* Radio */,
+				8E71D1E21A7BB918009B1094 /* RadioTests */,
+				8E71D1CD1A7BB918009B1094 /* Products */,
+				7C9982547FFD80FC4B155F70 /* Pods */,
+				5CF60E9834EAC7EC5A342F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E71D1CD1A7BB918009B1094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E71D1CC1A7BB918009B1094 /* Radio.app */,
+				8E71D1DF1A7BB918009B1094 /* RadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E71D1CE1A7BB918009B1094 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				8E10B4451A7BCA7F00966B9E /* DDKitModel */,
+				8E10B44A1A7BCA7F00966B9E /* Vendor */,
+				8E71D1D11A7BB918009B1094 /* AppDelegate.h */,
+				8E71D1D21A7BB918009B1094 /* AppDelegate.m */,
+				8E71D1D61A7BB918009B1094 /* Images.xcassets */,
+				8E71D1D81A7BB918009B1094 /* MainMenu.xib */,
+				8E71D1CF1A7BB918009B1094 /* Supporting Files */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		8E71D1CF1A7BB918009B1094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E71D1D01A7BB918009B1094 /* Info.plist */,
+				8E71D1D41A7BB918009B1094 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E71D1E21A7BB918009B1094 /* RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E71D1E51A7BB918009B1094 /* RadioTests.m */,
+				8E71D1E31A7BB918009B1094 /* Supporting Files */,
+			);
+			path = RadioTests;
+			sourceTree = "<group>";
+		};
+		8E71D1E31A7BB918009B1094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E71D1E41A7BB918009B1094 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E71D1CB1A7BB918009B1094 /* Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E71D1E91A7BB918009B1094 /* Build configuration list for PBXNativeTarget "Radio" */;
+			buildPhases = (
+				A137FACC051582F1571EC940 /* Check Pods Manifest.lock */,
+				8E71D1C81A7BB918009B1094 /* Sources */,
+				8E71D1C91A7BB918009B1094 /* Frameworks */,
+				8E71D1CA1A7BB918009B1094 /* Resources */,
+				9ED8A960D7951B9D9762BB7B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radio;
+			productName = Radio;
+			productReference = 8E71D1CC1A7BB918009B1094 /* Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E71D1DE1A7BB918009B1094 /* RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E71D1EC1A7BB918009B1094 /* Build configuration list for PBXNativeTarget "RadioTests" */;
+			buildPhases = (
+				8E71D1DB1A7BB918009B1094 /* Sources */,
+				8E71D1DC1A7BB918009B1094 /* Frameworks */,
+				8E71D1DD1A7BB918009B1094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E71D1E11A7BB918009B1094 /* PBXTargetDependency */,
+			);
+			name = RadioTests;
+			productName = RadioTests;
+			productReference = 8E71D1DF1A7BB918009B1094 /* RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E71D1C41A7BB918009B1094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DDKit;
+				TargetAttributes = {
+					8E71D1CB1A7BB918009B1094 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8E71D1DE1A7BB918009B1094 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8E71D1CB1A7BB918009B1094;
+					};
+				};
+			};
+			buildConfigurationList = 8E71D1C71A7BB918009B1094 /* Build configuration list for PBXProject "Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E71D1C31A7BB918009B1094;
+			productRefGroup = 8E71D1CD1A7BB918009B1094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E71D1CB1A7BB918009B1094 /* Radio */,
+				8E71D1DE1A7BB918009B1094 /* RadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E71D1CA1A7BB918009B1094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E71D1D71A7BB918009B1094 /* Images.xcassets in Resources */,
+				8E71D1DA1A7BB918009B1094 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E71D1DD1A7BB918009B1094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ED8A960D7951B9D9762BB7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A137FACC051582F1571EC940 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E71D1C81A7BB918009B1094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E10B47D1A7BCA7F00966B9E /* NSObject-MissingKV.m in Sources */,
+				8E10B4821A7BCA7F00966B9E /* NSString-UppercaseFirst.m in Sources */,
+				8E10B4831A7BCA7F00966B9E /* SQLiteInstanceManager.m in Sources */,
+				8E10B4781A7BCA7F00966B9E /* NSDate-SQLitePersistence.m in Sources */,
+				8E10B4851A7BCA7F00966B9E /* UIColor-SQLitePersistentObject.m in Sources */,
+				8E10B47F1A7BCA7F00966B9E /* NSString-NumberStuff.m in Sources */,
+				8E10B4731A7BCA7F00966B9E /* DDBasicModel.m in Sources */,
+				8E10B4B21A7C6D5400966B9E /* RadioStation.m in Sources */,
+				8E10B4761A7BCA7F00966B9E /* GTMBase64.m in Sources */,
+				8E71D1D51A7BB918009B1094 /* main.m in Sources */,
+				8E10B4771A7BCA7F00966B9E /* NSData-SQLitePersistence.m in Sources */,
+				8E10B4841A7BCA7F00966B9E /* SQLitePersistentObject.m in Sources */,
+				8E71D1D31A7BB918009B1094 /* AppDelegate.m in Sources */,
+				8E10B47C1A7BCA7F00966B9E /* NSObject-ClassName.m in Sources */,
+				8E10B47A1A7BCA7F00966B9E /* NSMutableData-SQLitePersistence.m in Sources */,
+				8E10B4811A7BCA7F00966B9E /* NSString-SQLitePersistence.m in Sources */,
+				8E10B4861A7BCA7F00966B9E /* UIImage-SQLitePersistence.m in Sources */,
+				8E10B4801A7BCA7F00966B9E /* NSString-SQLiteColumnName.m in Sources */,
+				8E10B47E1A7BCA7F00966B9E /* NSObject-SQLitePersistence.m in Sources */,
+				8E10B47B1A7BCA7F00966B9E /* NSNumber-SQLitePersistence.m in Sources */,
+				8E10B4791A7BCA7F00966B9E /* NSMutableArray-MultipleSort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E71D1DB1A7BB918009B1094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E71D1E61A7BB918009B1094 /* RadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E71D1E11A7BB918009B1094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E71D1CB1A7BB918009B1094 /* Radio */;
+			targetProxy = 8E71D1E01A7BB918009B1094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E71D1D81A7BB918009B1094 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E71D1D91A7BB918009B1094 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E71D1E71A7BB918009B1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E71D1E81A7BB918009B1094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E71D1EA1A7BB918009B1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C5653A32FEE2C0E9E0A84C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Radio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E71D1EB1A7BB918009B1094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB76BC1C571C39C18A95EBBE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Radio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E71D1ED1A7BB918009B1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio.app/Contents/MacOS/Radio";
+			};
+			name = Debug;
+		};
+		8E71D1EE1A7BB918009B1094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio.app/Contents/MacOS/Radio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E71D1C71A7BB918009B1094 /* Build configuration list for PBXProject "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E71D1E71A7BB918009B1094 /* Debug */,
+				8E71D1E81A7BB918009B1094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E71D1E91A7BB918009B1094 /* Build configuration list for PBXNativeTarget "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E71D1EA1A7BB918009B1094 /* Debug */,
+				8E71D1EB1A7BB918009B1094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E71D1EC1A7BB918009B1094 /* Build configuration list for PBXNativeTarget "RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E71D1ED1A7BB918009B1094 /* Debug */,
+				8E71D1EE1A7BB918009B1094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E71D1C41A7BB918009B1094 /* Project object */;
+}
